@@ -8,5 +8,5 @@ autopep8==1.4.3
 opencv-python==4.1.0.25
 Pillow==6.0.0
 pyocr==0.7
-tensorflow==1.12.0
+tensorflow==1.15.2
 keras==1.2.2
