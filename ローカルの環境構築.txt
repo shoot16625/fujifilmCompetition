@@ -1,0 +1,15 @@
+# ローカルの環境構築
+
+conda create -n fujifilm python=3.6
+
+conda activate fujifilm
+
+ipython kernel install --user --name=fujifilm --display-name=fujifilm
+
+pip install -r requirements.txt
+
+git clone https://github.com/thtrieu/darkflow.git
+
+python3 setup.py build_ext --inplace
+
+pip install .
